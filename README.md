@@ -1,2 +1,15 @@
-# codeplay
- This is a javascript playground like codepan
+# umi project
+
+## Getting Started
+
+Install dependencies,
+
+```bash
+$ yarn
+```
+
+Start the dev server,
+
+```bash
+$ yarn start
+```
