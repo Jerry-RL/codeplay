@@ -1,11 +1,13 @@
 import React from 'react';
 import Split from '@uiw/react-split';
-
+import { Editor } from '../CodeEditor';
 const Container = () => (
   <Split
     style={{ height: '80%', border: '1px solid #d5d5d5', borderRadius: 3 }}
   >
-    <div style={{ width: '50%', minWidth: 100 }}>code editor</div>
+    <div style={{ width: '50%', minWidth: 100 }}>
+      <Editor />
+    </div>
     <div style={{ width: '50%', minWidth: 100 }}>
       <iframe
         srcDoc="<div>hrml content</div>"
